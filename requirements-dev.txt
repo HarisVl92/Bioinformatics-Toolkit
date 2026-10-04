@@ -1,0 +1,5 @@
+# Development tools (formatting and testing). Also installs the runtime dependencies.
+-r requirements.txt
+
+black==26.5.1          # code formatter
+pytest==9.1.1          # test runner

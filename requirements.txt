@@ -1,0 +1,16 @@
+# Runtime dependencies for bioinformatics-toolkit.
+# Versions are pinned to the exact releases the tools were tested with (Python 3.13).
+# argparse is part of the Python standard library, so it is not listed here.
+
+# Data wrangling
+pandas==3.0.6          # tabular data manipulation
+numpy==2.5.3           # numerical arrays and random simulation
+openpyxl==3.1.5        # .xlsx engine used by pandas
+
+# Literature mining
+biopython==1.88        # Bio.Entrez client for NCBI E-utilities
+
+# Visualization
+matplotlib==3.11.2     # plotting backend
+seaborn==0.13.2        # statistical plotting on top of matplotlib
+adjustText==1.4.0      # non-overlapping gene labels on the volcano plot

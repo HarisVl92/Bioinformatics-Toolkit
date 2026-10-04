@@ -1,0 +1,10 @@
+# Tool configuration. The repository is a collection of stand-alone CLI scripts,
+# not an installable package, so there is no [project] table.
+
+[tool.black]
+line-length = 88
+target-version = ["py312", "py313"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
