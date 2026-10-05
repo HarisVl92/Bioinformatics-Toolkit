@@ -3,7 +3,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![CI](https://github.com/HarisVl92/bioinformatics-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/HarisVl92/bioinformatics-toolkit/actions/workflows/ci.yml)
+[![CI](https://github.com/HarisVl92/Bioinformatics-Toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/HarisVl92/Bioinformatics-Toolkit/actions/workflows/ci.yml)
 
 **Command-line tools that automate three everyday research-data tasks: cleaning messy
 expression spreadsheets, mining PubMed, and producing publication-ready figures.**
@@ -71,7 +71,7 @@ flowchart LR
 ## Repository Structure
 
 ```text
-bioinformatics-toolkit/
+Bioinformatics-Toolkit/
 ├── 1_data_wrangling/
 │   ├── generate_mock_rnaseq.py      # builds a realistic, messy Excel count sheet
 │   ├── clean_data.py                # CLI: clean and standardise the count table
@@ -99,8 +99,8 @@ bioinformatics-toolkit/
 Requires **Python 3.12+** (tested on 3.13).
 
 ```bash
-git clone https://github.com/HarisVl92/bioinformatics-toolkit.git
-cd bioinformatics-toolkit
+git clone https://github.com/HarisVl92/Bioinformatics-Toolkit.git
+cd Bioinformatics-Toolkit
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt    # use requirements-dev.txt to also run tests and black
